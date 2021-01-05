@@ -7,8 +7,25 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!--link for the CSS-->
     <link rel="stylesheet" href="style.css">
+    <!--use this to fit on phone screens-->
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     <title>Javascript Code Quiz</title>
 </head>
+
+<body>
+    <div id="quizContainer" class="container">
+        <div class="title">JavaScript Quiz</div>
+        <div id="question" class="question"></div>
+        <label class="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span> </label>
+        <label class="option"><input type="radio" name="option" value="2" /> <span id="opt2"></span> </label>
+        <label class="option"><input type="radio" name="option" value="3" /> <span id="opt3"></span> </label>
+        <label class="option"><input type="radio" name="option" value="4" /> <span id="opt4"></span> </label>
+        <button id="startButton" class="start-btn" onclick="run_clock('clockdiv',deadline);">Start</button>
+        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+    </div>
+    <div id="result" class="container result" style="display: none;"> </div>
+    <div id="clockdiv"> </div>
+    <script src="design.js"></script>
+</body>
 
 </html>
