@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(235, 211, 135, 0.3);
+}
+
 .title {
     font-size: xx-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -5,6 +9,7 @@
 }
 
 .question {
+    font-size: xx-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -24,6 +29,7 @@
     margin-bottom: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    background-color: rgba(5, 230, 238, 0.3);
 }
 
 #startButton {
@@ -39,6 +45,7 @@
     margin-top: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    background-color: rgba(5, 230, 238, 0.3);
 }
 
 #nextButton {
@@ -54,4 +61,5 @@
     margin-top: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    background-color: rgba(5, 230, 238, 0.3);
 }
