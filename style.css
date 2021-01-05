@@ -4,6 +4,13 @@
     text-align: center;
 }
 
+.question {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
 .option {
     float: left;
     width: 450px;
@@ -11,7 +18,10 @@
     border-style: ridge;
     border-color: black;
     padding: 5px;
-    margin: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
@@ -19,12 +29,14 @@
 #startButton {
     float: left;
     width: 40%;
+    margin-right: 2px;
     text-align: center;
     border: 3px;
     border-style: ridge;
     border-color: black;
     padding: 5px;
-    margin: 5px;
+    margin-left: 50px;
+    margin-top: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
@@ -32,12 +44,14 @@
 #nextButton {
     float: left;
     width: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     border: 3px;
     border-style: ridge;
     border-color: black;
     padding: 5px;
-    margin: 5px;
+    margin-left: 105px;
+    margin-top: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
