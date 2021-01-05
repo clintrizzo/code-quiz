@@ -22,7 +22,6 @@ function run_clock(id, endtime) {
     var timeinterval = setInterval(update_clock, 1000);
 }
 
-// running the quiz
 var currentQuestion = 0;
 var score = 0;
 var totQuestions = questions.length;
